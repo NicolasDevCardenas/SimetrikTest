@@ -1,3 +1,39 @@
+
+Cuestionario
+
+1. ¿Por qué no debería usar la librería ​JQuery ​ , ​si estoy usando ​ReactJS​?
+
+Básicamente no es necesario usar JQuery si se está usando ReactJS, el manejo del DOM es totalmente limpio y rápido, utilizar JQuey ralentiza la aplicación.
+
+
+2. ¿Porque usarias ​Hooks ​ de las nuevas versiones de ​ReactJS, ​en lugar de ​class component ​ ?
+
+Porque simplifica todo de una manera más ordenada, permite reutilizar código, y no ser redundantes a la hora de desarrollar, esto hace nuestra aplicación mucho más ligera,la jerarquía de los componentes se puede manejar mejor
+
+
+3. ¿Que es un archivo ​JSX ​ ? 
+
+Un archivo JSX es una extensión de Javascript, donde permite unir mediante una semántica diferentes archivos html y js, para no tenerlos por separado.
+
+4. ¿Qué diferencia hay entre una ​function ​ y una ​arrow function ​ de Javascript? 
+
+
+Además de que son mucho más cortas a la hora de escribirlas, son siempre tratadas como funciones anónimas no cuentan con this o super, tampoco se puede usar como métodos.
+
+5. ¿Qué es ​Redux ​ y cómo nos ayuda en los proyectos? 
+
+Redux es un patrón de arquitectura que nos permite manejar el estado de una aplicación de una forma más predecible. Reduce la relación entre componentes y facilita el flujo de datos, es muy útil cuando tenemos datos que se necesitan mostrar entre componentes y en cierto momento ya no es fácil entender hacia donde van los datos, redux no ayuda a entender y tener más claro este flujo de datos.
+
+6. ¿Por qué usuarias pruebas unitarias en tu código? 
+
+Cuando estamos trabajando con la metodología ágil es muy importante que nuestro código a medida que se realice esté adecuadamente desarrollado y probado para evitar bugs en niveles más amplios de una aplicación, nos evita problemas en el futuro y es una práctica.
+
+7. ¿Que nos permite hacer la siguiente declaración? 
+
+const ​anyFunction = (​param_1​) => (​param_2​) =>​ ​param_1 ​+​ ​param_2 
+
+Esto nos permite crean funciones configurables para poderse utilizar en cualquier momento de la aplicacion.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
